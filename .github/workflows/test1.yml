@@ -1,0 +1,16 @@
+name: Hello World
+on: 
+  push:
+    paths:
+      - '.github/workflows/test1.yml'
+  workflow_dispatch: #maunual trigger
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: run hello world
+      run: echo 'hello world'
+      
+     
+  
+  
