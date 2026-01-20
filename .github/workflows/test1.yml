@@ -12,6 +12,16 @@ jobs:
       run: echo 'hello world'
     - name: run hello vaibhav
       run: echo 'hello vaibhav'
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+    - name: list directory
+      run:  ls
+    - name: checkout
+      uses: actions/checkout@v4
+    - name: list directory
+      run:  ls
+  
      
   
   
