@@ -10,7 +10,8 @@ jobs:
     steps:
     - name: run hello world
       run: echo 'hello world'
-      
+    - name: run hello vaibhav
+      run: echo 'hello vaibhav'
      
   
   
